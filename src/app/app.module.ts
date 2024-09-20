@@ -5,16 +5,24 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NgforComponent } from './ngfor/ngfor.component';
 import { SwitchcaseComponent } from './switchcase/switchcase.component';
+import { NgclassComponent } from './ngclass/ngclass.component';
+import { PropertyBComponent } from './property-b/property-b.component';
+import { TwowayBComponent } from './twoway-b/twoway-b.component';
+import { FormsModule } from '@angular/forms'
 
 @NgModule({
   declarations: [
     AppComponent,
     NgforComponent,
-    SwitchcaseComponent
+    SwitchcaseComponent,
+    NgclassComponent,
+    PropertyBComponent,
+    TwowayBComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
