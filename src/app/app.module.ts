@@ -8,7 +8,8 @@ import { SwitchcaseComponent } from './switchcase/switchcase.component';
 import { NgclassComponent } from './ngclass/ngclass.component';
 import { PropertyBComponent } from './property-b/property-b.component';
 import { TwowayBComponent } from './twoway-b/twoway-b.component';
-import { FormsModule } from '@angular/forms'
+import { FormsModule } from '@angular/forms';
+import { TemplateComponent } from './template/template.component'
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { FormsModule } from '@angular/forms'
     SwitchcaseComponent,
     NgclassComponent,
     PropertyBComponent,
-    TwowayBComponent
+    TwowayBComponent,
+    TemplateComponent
   ],
   imports: [
     BrowserModule,
