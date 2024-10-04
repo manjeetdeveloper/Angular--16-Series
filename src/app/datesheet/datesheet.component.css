@@ -1,0 +1,9 @@
+.router {
+  display: flex;
+  justify-content: center; /* Centers the content horizontally */
+  gap: 50px;               /* Adds space between the links */
+  margin-top: 20px;
+  color: Red;      /* Adds margin to the top */
+  font-size: 20px;
+  font-weight: 800;
+}
